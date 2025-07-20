@@ -1,0 +1,141 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #111111;
+    color: #fefefe;
+    font-family: 'Georgia', serif;
+}
+
+.navbar {
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#hero_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hero_section img {
+    height: 600px;
+    width: 1400px;
+}
+
+h1 {
+    padding: 100px;
+    font-size: 75px;
+    align-self: flex-start;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article>p {
+    font-size: xx-large;
+    padding: 0 100px 100px 100px;
+}
+
+section {
+    padding: 100px 100px 100px 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: large;
+}
+
+section ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 200px;
+    min-width: 500px;
+    align-content: space-between;
+}
+
+section>div {
+    color: #858585;
+}
+
+section ul>li {
+    list-style: none;
+}
+
+.linebrk {
+    background-color: #858585;
+    width: 1300px;
+    height: 0.5px;
+    margin: 0 100px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h1 {
+    font-size: xxx-large;
+}
+
+footer h1>span {
+    color: #e31e3c;
+}
+
+#right {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: flex-end;
+}
+
+#Social {
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#Social li {
+    list-style: none;
+}
+
+#Social img {
+    height: 25px;
+    width: 25px;
+}
+
+#location {
+    font-size: large;
+    color: #858585;
+    width: 300px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#location li {
+    list-style: none;
+}
+
+#red-box{
+    padding: 20px 100px;
+    width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, #e31e3c, #111111);
+}
